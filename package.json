@@ -1,0 +1,22 @@
+{
+  "name": "password-strength-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dark-themed password strength checker with crack-time estimation and admin controls.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node -e \"console.log('No build step required for this project.')\""
+  },
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
